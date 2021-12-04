@@ -148,4 +148,4 @@ target_link_libraries(main PRIVATE z)
 #-static-libgcc -static-libstdc++
 
 # Tell C++ compiler to use C++20 features. We don't actually use any of them.
-target_compile_features(main PUBLIC cxx_std_11)
+target_compile_features(main PUBLIC cxx_std_20)

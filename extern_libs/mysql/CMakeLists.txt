@@ -29,4 +29,4 @@ add_library(mysql_services STATIC IMPORTED GLOBAL)
 SET_TARGET_PROPERTIES(mysql_services PROPERTIES IMPORTED_LOCATION ${PROJECT_SOURCE_DIR}/static/libmysqlservices.a)
 
 # Tell compiler to use C++20 features. The code doesn't actually use any of them.
-#target_compile_features(mysql PUBLIC cxx_std_11)
+#target_compile_features(mysql PUBLIC cxx_std_20)

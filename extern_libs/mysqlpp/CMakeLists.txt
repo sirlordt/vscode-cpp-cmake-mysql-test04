@@ -54,7 +54,7 @@ target_include_directories(${PROJECT_NAME} INTERFACE ${PROJECT_SOURCE_DIR}/inclu
 #target_include_directories(${PROJECT_NAME} INTERFACE ${PROJECT_SOURCE_DIR}/include)
 
 # Tell compiler to use C++20 features. The code doesn't actually use any of them.
-#target_compile_features(mysqlpp PUBLIC cxx_std_11)
+#target_compile_features(mysqlpp PUBLIC cxx_std_20)
 
 #project(mysqlpp_ssqls2parse)
 
